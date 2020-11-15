@@ -1,0 +1,60 @@
+.cube1 {
+    /* height: 80px; */
+    width: 100%;
+    background-color: #0332b4;
+}
+
+.cube4 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(47, 37, 90);
+}
+
+.cube3 {
+    height: 75px;
+    width: 100%;
+    background-color: #000;
+}
+
+.cube2 {
+    height: 75px;
+    width: 100%;
+    background-color: #673dc7;
+}
+
+.cube5 {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(16, 104, 62);
+}
+
+h1,
+p {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(20, 172, 20);
+}
+
+.container {
+    margin-top: 20px;
+    /* background-color: #ffaadd; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0px;
+}
+
+.aaa {
+    display: inline;
+}
