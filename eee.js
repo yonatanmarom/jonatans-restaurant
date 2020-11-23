@@ -11,7 +11,7 @@ if (el01) {
 
 
 var el06 = document.querySelector('.cube9')
-if (el06) el06.innerHTML = '<h1>kick ball launcher</h1>'
+if (el06) el06.innerHTML = '<h1>kick ball launcher (The game is for phones)</h1>'
 var el02 = document.querySelector('.cube4')
 if (el02) el02.innerHTML = '<h1>picture of dishes served in the restaurant</h1>'
 
