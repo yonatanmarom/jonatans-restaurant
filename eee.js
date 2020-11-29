@@ -1,17 +1,21 @@
 var el01 = document.querySelector('.cube1')
 if (el01) {
     el01.innerHTML = `<h1> menu </h1>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">pizza 40₪</button>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">hamburger 50₪</button>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">sushi 35₪</button>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">chicken 70₪</button>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">Eggs ₪20</button>`
-    el01.innerHTML += `<button class ="ddd" onClick="inputNumber()">milk ₪20</button>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">pizza 40₪</div>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">hamburger 50₪</div>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">sushi 35₪</div>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">chicken 70₪</div>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">Eggs ₪20</div>`
+    el01.innerHTML += `<div class ="ddd" onClick="inputNumber()">milk ₪20</div>`
 }
 
 
+var el07 = document.querySelector('.cube10')
+if (el07) el07.innerHTML = '<h1>welcome to v.i.p</h1>'
+
 var el06 = document.querySelector('.cube9')
 if (el06) el06.innerHTML = '<h1>kick ball launcher (The game is for phones)</h1>'
+
 var el02 = document.querySelector('.cube4')
 if (el02) el02.innerHTML = '<h1>picture of dishes served in the restaurant</h1>'
 

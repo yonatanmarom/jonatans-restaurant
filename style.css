@@ -81,6 +81,7 @@ h1,
 p {
     font-family: sans-serif;
     color: rgb(255, 255, 255);
+    margin-top: 0;
 }
 
 h2 {
@@ -152,8 +153,8 @@ a:visited {
 }
 
 .cube10 {
-    width: 50px;
-    height: 100%;
+    width: 100%px;
+    height: 40px;
     background-color: #eeff00;
 }
 
@@ -161,4 +162,15 @@ a:visited {
     background-color: #0332b4;
     border: 0;
     color: rgb(255, 255, 255);
+    display: inline;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+
+.ddd:active {
+    background-color: #0332b4;
+    border: 0;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
 }
